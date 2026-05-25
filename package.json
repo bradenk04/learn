@@ -9,11 +9,15 @@
   },
   "dependencies": {
     "@ark-ui/solid": "^5.36.2",
+    "@eslint/js": "^10.0.1",
     "@fontsource-variable/dm-sans": "^5.2.8",
+    "@kobalte/core": "^0.13.11",
     "@solidjs/meta": "^0.29.4",
     "@solidjs/router": "^0.15.0",
     "@solidjs/start": "2.0.0-alpha.2",
     "@solidjs/vite-plugin-nitro-2": "^0.1.0",
+    "cmdk-solid": "^1.1.2",
+    "lucide-solid": "^1.16.0",
     "solid-js": "^1.9.5",
     "vite": "^7.0.0"
   },
@@ -23,6 +27,12 @@
   "devDependencies": {
     "@unocss/preset-uno": "^66.7.0",
     "@unocss/preset-wind4": "^66.7.0",
+    "eslint": "^10.4.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-solid": "^0.14.5",
+    "prettier": "^3.8.3",
+    "prettier-plugin-tailwindcss": "^0.8.0",
+    "typescript-eslint": "^8.60.0",
     "unocss": "^66.7.0"
   }
 }
