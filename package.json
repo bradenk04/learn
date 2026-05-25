@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "@unocss/preset-uno": "^66.7.0",
+    "@unocss/preset-wind4": "^66.7.0",
     "unocss": "^66.7.0"
   }
 }

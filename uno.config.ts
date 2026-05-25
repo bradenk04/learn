@@ -1,8 +1,9 @@
-import { defineConfig, presetUno } from 'unocss'
+import { defineConfig, presetWind4, presetUno } from 'unocss'
 
 export default defineConfig({
   presets: [
     presetUno(),
+    presetWind4()
   ],
   theme: {
     colors: {
