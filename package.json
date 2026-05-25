@@ -1,25 +1,22 @@
 {
-  "name": "learn",
+  "name": "example-basic",
   "type": "module",
-  "version": "0.0.1",
-  "engines": {
-    "node": ">=22.12.0"
-  },
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "dev": "vite dev",
+    "build": "vite build",
+    "start": "vite start",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@astrojs/solid-js": "^6.0.1",
-    "astro": "^6.3.7",
-    "schema-dts": "^2.0.0",
-    "solid-js": "^1.9.13"
+    "@solidjs/meta": "^0.29.4",
+    "@solidjs/router": "^0.15.0",
+    "@solidjs/start": "2.0.0-alpha.2",
+    "solid-js": "^1.9.5",
+    "vite": "^7.0.0",
+    "@solidjs/vite-plugin-nitro-2": "^0.1.0"
   },
-  "devDependencies": {
-    "@unocss/astro": "^66.7.0",
-    "@unocss/reset": "^66.7.0",
-    "unocss": "^66.7.0"
-  }
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {}
 }
