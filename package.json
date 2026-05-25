@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@ark-ui/solid": "^5.36.2",
+    "@fontsource-variable/dm-sans": "^5.2.8",
     "@solidjs/meta": "^0.29.4",
     "@solidjs/router": "^0.15.0",
     "@solidjs/start": "2.0.0-alpha.2",
